@@ -20,6 +20,7 @@ def smallest_divisor(n):
         if (n % d) == 0:
             return d
 
+
 def factorization(n):
     L = []
     m = n
@@ -33,7 +34,22 @@ def factorization(n):
     return L
 
 
-
+def display_factorization(L):
+    R = "n = "
+    for i in range(len(L)-1):
+        X = L[i]
+        p = X[0]
+        a = X[1]
+        R = R + f"{p}^{a}\\times"
+    # Last step, without the 'times symbol':
+    i = len(L)-1
+    X = L[i]
+    p = X[0]
+    a = X[1]
+    R = R + f"{p}^{a}"
+    # The function return None but display the result string
+    st.latex(R)
+    return None
 
 
 #-------------------------------------------------------------------------------
@@ -42,6 +58,7 @@ n = int(st.text_input("Choisir un nombre entier n et valider : ", 2))
 d = smallest_divisor(n)
 L = factorization(n)
 
-st.latex(f"n = {n}")
-st.latex(f"d = {d}")
-st.latex(f"L = {L}")
+st.write("Voici la décomposition de n :")
+display_factorization(L)
+
+#-------------------------------------------------------------------------------
