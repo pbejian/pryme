@@ -1,5 +1,10 @@
 # Pryme
 
+L'application est en ligne et disponible à l'adresse suivante :
+
+[https://pbejian-pryme-pryme-nahuro.streamlitapp.com](https://pbejian-pryme-pryme-nahuro.streamlitapp.com).
+
+
 Une application Python pour décomposer un nombre entier en facteurs premiers. L'interface a été faite avec [streamlit](streamlit.io).
 
 Il s'agit de la réécriture d'une ancienne application Javascript nommée « Prime » qui est toujours disponible sur mon repository GitHub.
