@@ -4,6 +4,15 @@ import streamlit as st
 
 #-------------------------------------------------------------------------------
 
+def espace(n):
+    """
+    Permet de sauter n lignes dans le rendu de streamlit.
+    """
+    for _ in range(n):
+        st.write("")
+
+#-------------------------------------------------------------------------------
+
 st.title("Pryme")
 
 st.write("""
@@ -61,4 +70,19 @@ L = factorization(n)
 st.write("Voici la décomposition de n :")
 display_factorization(L)
 
+#-------------------------------------------------------------------------------
+
+st.markdown("""
+    <hr>
+""", unsafe_allow_html=True)
+
+#-------------------------------------------------------------------------------
+
+espace(2)
+
+st.write("""
+📝 Sources de l'application :
+[https://github.com/pbejian/pryme](https://github.com/pbejian/pryme)
+
+""")
 #-------------------------------------------------------------------------------
