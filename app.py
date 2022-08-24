@@ -10,7 +10,7 @@ import include as inc
 st.title("Pryme")
 
 st.write("""
-    ### Décomposition d'un entier en facteur premier
+    ### Décomposition d'un entier en facteurs premiers
     """)
 
 inc.espace(1)
