@@ -2,7 +2,7 @@
 
 L'application est en ligne et disponible à l'adresse suivante :
 
-🚀 [https://pbejian-pryme-pryme-nahuro.streamlitapp.com](https://pbejian-pryme-pryme-nahuro.streamlitapp.com).
+🚀 [https://pbejian-pryme-app-yndxjn.streamlitapp.com](https://pbejian-pryme-app-yndxjn.streamlitapp.com).
 
 
 Cette application Python permet de décomposer un nombre entier en facteurs premiers. L'interface a été faite avec [streamlit](streamlit.io).
