@@ -9,4 +9,4 @@ Cette application Python permet de décomposer un nombre entier en facteurs prem
 
 Il s'agit de la réécriture d'une ancienne application Javascript nommée [« Prime »](https://github.com/pbejian/prime) qui est toujours disponible sur mon dépôt GitHub.
 
-Si on compare les deux, on se rend compte de la puissance de [streamlit](https://streamlit.io). Sans aucune connaisance en HTML et CSS, l'application est écrite en quelques minutes seulement. 
+Si on compare les deux, on se rend compte de la puissance de [streamlit](https://streamlit.io). Sans aucune connaisance en HTML et CSS, l'application est écrite en quelques minutes seulement.
